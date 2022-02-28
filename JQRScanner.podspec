@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JQRScanner'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JQRScanner.'
+  s.summary          = 'It\'s easy to use QRScanner.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/장효원/JQRScanner'
+  s.homepage         = 'https://github.com/JacksonJang/JQRScanner'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '장효원' => 'hyo961015@naver.com' }
-  s.source           = { :git => 'https://github.com/장효원/JQRScanner.git', :tag => s.version.to_s }
+  s.author           = { 'JacksonJang' => 'hyo961015@naver.com' }
+  s.source           = { :git => 'https://github.com/JacksonJang/JQRScanner.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'JQRScanner/Classes/**/*'
+  s.swift_version = '5.0'
+  s.source_files = 'Sources/*'
   
   # s.resource_bundles = {
   #   'JQRScanner' => ['JQRScanner/Assets/*.png']

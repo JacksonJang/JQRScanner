@@ -32,8 +32,8 @@
 		1671DE6DED8F301A0A3059DE /* Pods_JQRScanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JQRScanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EE97C946D1CC4371FD3E70 /* Pods-JQRScanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQRScanner_Tests.release.xcconfig"; path = "Target Support Files/Pods-JQRScanner_Tests/Pods-JQRScanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		49690CF1D2427F517188933A /* Pods-JQRScanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQRScanner_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JQRScanner_Tests/Pods-JQRScanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B122E815EA3300685B83D4F /* JQRScanner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JQRScanner.podspec; path = ../JQRScanner.podspec; sourceTree = "<group>"; };
-		5FECE3F181FD43B78B4FECB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4B122E815EA3300685B83D4F /* JQRScanner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JQRScanner.podspec; path = ../JQRScanner.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5FECE3F181FD43B78B4FECB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JQRScanner_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQRScanner_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		CAFAD9EBA491A33E03ABCC7F /* Pods-JQRScanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQRScanner_Example.debug.xcconfig"; path = "Target Support Files/Pods-JQRScanner_Example/Pods-JQRScanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E4831E014F88E2D4AFA4E333 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E4831E014F88E2D4AFA4E333 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EC46C2F45E1FE6D53EFC43DD /* Pods_JQRScanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JQRScanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				49690CF1D2427F517188933A /* Pods-JQRScanner_Tests.debug.xcconfig */,
 				39EE97C946D1CC4371FD3E70 /* Pods-JQRScanner_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
