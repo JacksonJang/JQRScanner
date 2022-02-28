@@ -1,0 +1,16 @@
+PODS:
+  - JQRScanner (0.1.0)
+
+DEPENDENCIES:
+  - JQRScanner (from `../`)
+
+EXTERNAL SOURCES:
+  JQRScanner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JQRScanner: b39a688ca2f920e1b5f5995bbb053cafce1d0d19
+
+PODFILE CHECKSUM: d163977efeaf66c60d5c2c1bf414c50a04a12aab
+
+COCOAPODS: 1.11.2

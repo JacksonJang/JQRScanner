@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JQRScanner_Example' do
+  pod 'JQRScanner', :path => '../'
+
+  target 'JQRScanner_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
