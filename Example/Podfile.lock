@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JQRScanner: b39a688ca2f920e1b5f5995bbb053cafce1d0d19
+  JQRScanner: d49e3661c8a2eb2cf1f8d6b9b350d1ea60fe9dfe
 
 PODFILE CHECKSUM: d163977efeaf66c60d5c2c1bf414c50a04a12aab
 
